@@ -1,0 +1,54 @@
+.boxWidth {
+  @apply xl:w-[1440px]  w-full;
+}
+
+.heading2 {
+  @apply font-poppins font-semibold xs:text-[48px] text-[35px] text-bluePrimary  w-full;
+}
+
+.paragraph {
+  @apply font-poppins font-normal text-bluePrimary text-[18px] leading-[34.8px];
+}
+
+.flexCenter {
+  @apply flex justify-center items-center;
+}
+
+.flexStart {
+  @apply flex justify-center items-start;
+}
+
+.paddingX {
+  @apply sm:px-16 px-6;
+}
+.paddingY {
+  @apply sm:py-16 py-6;
+}
+.padding {
+  @apply sm:px-16 px-6 sm:py-12 py-4;
+}
+
+.marginX {
+  @apply sm:mx-16 mx-6;
+}
+.marginY {
+  @apply sm:my-16 my-6;
+}
+
+.section {
+  @apply flex md:flex-row flex-col sm:py-16 py-6;
+}
+.sectionReverse {
+  @apply flex md:flex-row flex-col-reverse sm:py-14 py-6;
+}
+
+.sectionImgReverse {
+  @apply flex-1 flex justify-center items-center md:mr-20 mr-0 md:mt-0 mt-10 relative;
+}
+.sectionImg {
+  @apply flex-1 flex justify-center items-center  md:ml-10 ml-0 md:mt-0 mt-10 relative;
+}
+
+.sectionInfo {
+  @apply flex-1 flex justify-center items-start flex-col;
+}
